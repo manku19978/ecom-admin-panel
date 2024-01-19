@@ -5,8 +5,9 @@ import { BUSINESS_SIDEBAR_CONFIG } from "@/src/utils/config";
 import s from "./Content.module.css";
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-const renderList = (data, selectedTile, clickHandler) => {
+const renderList = (data, selectedTile, clickHandler, path) => {
   return data.children.map((tile) => {
     return (
       <div className={cn(s.tileContainer)}>
@@ -37,7 +38,10 @@ const renderList = (data, selectedTile, clickHandler) => {
         {selectedTile === tile.label && (
           <div className={cn(s.links, "flex", "flex-col")}>
             {tile.children.map((link) => (
-              <Link className={cn("cp", s.link)} href={link.path}>
+              <Link
+                className={cn("cp", s.link, { ["bbb"]: path == link.path })}
+                href={link.path}
+              >
                 {link.label}
               </Link>
             ))}
@@ -50,7 +54,7 @@ const renderList = (data, selectedTile, clickHandler) => {
 
 const Content = ({ currentActive }) => {
   const [selectedTile, setSelectedTile] = useState(null);
-
+  const path = usePathname();
   let renderingList;
 
   const clickHandler = (label) => {
@@ -62,7 +66,8 @@ const Content = ({ currentActive }) => {
     renderingList = renderList(
       BUSINESS_SIDEBAR_CONFIG,
       selectedTile,
-      clickHandler
+      clickHandler,
+      path
     );
   }
 
