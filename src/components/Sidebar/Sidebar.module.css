@@ -1,10 +1,16 @@
 .container {
   width: 352px;
+  padding: 12px;
   border-radius: 12px;
+  color: var(--white);
   background: linear-gradient(
     175deg,
     var(--primary) -19.41%,
     rgba(62, 50, 50, 0.48) 364.14%,
     rgba(62, 50, 50, 0) 515.91%
   );
+}
+
+.headerContainer {
+  margin-bottom: 32px;
 }

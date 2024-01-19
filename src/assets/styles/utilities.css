@@ -6,6 +6,10 @@
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -40,4 +44,12 @@
 
 .bbb {
   font-weight: 700;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
