@@ -1,0 +1,43 @@
+.cp {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.b {
+  font-weight: 500;
+}
+
+.bb {
+  font-weight: 600;
+}
+
+.bbb {
+  font-weight: 700;
+}

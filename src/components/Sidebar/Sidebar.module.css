@@ -1,0 +1,10 @@
+.container {
+  width: 352px;
+  border-radius: 12px;
+  background: linear-gradient(
+    175deg,
+    var(--primary) -19.41%,
+    rgba(62, 50, 50, 0.48) 364.14%,
+    rgba(62, 50, 50, 0) 515.91%
+  );
+}
