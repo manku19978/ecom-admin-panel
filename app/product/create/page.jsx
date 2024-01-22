@@ -1,3 +1,3 @@
 export default function CreateProduct() {
-  return <h1>create Product</h1>;
+  return <h1>Create Product</h1>;
 }

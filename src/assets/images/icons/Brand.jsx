@@ -19,9 +19,9 @@ const Brand = () => (
         y2="16.2942"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" />
-        <stop offset="0.443" stop-color="white" />
-        <stop offset="1" stop-color="white" />
+        <stop stopColor="white" />
+        <stop offset="0.443" stopColor="white" />
+        <stop offset="1" stopColor="white" />
       </linearGradient>
     </defs>
   </svg>
