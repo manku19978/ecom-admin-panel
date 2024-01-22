@@ -11,6 +11,6 @@ const ArrowDown = () => (
       fill="white"
     />
   </svg>
-);
+)
 
-export default ArrowDown;
+export default ArrowDown

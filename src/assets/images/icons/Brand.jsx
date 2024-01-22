@@ -25,6 +25,6 @@ const Brand = () => (
       </linearGradient>
     </defs>
   </svg>
-);
+)
 
-export default Brand;
+export default Brand

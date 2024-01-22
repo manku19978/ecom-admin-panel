@@ -11,6 +11,6 @@ const Product = () => (
       fill="white"
     />
   </svg>
-);
+)
 
-export default Product;
+export default Product

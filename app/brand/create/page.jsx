@@ -1,5 +1,5 @@
 const CreateBrand = () => {
-  return <h1>Create Brand</h1>;
-};
+  return <h1>Create Brand</h1>
+}
 
-export default CreateBrand;
+export default CreateBrand

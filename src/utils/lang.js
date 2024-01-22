@@ -1,5 +1,5 @@
 export const SIDEBAR = {
   header: {
-    ctas: ["Personal", "Business"],
+    ctas: ['Personal', 'Business'],
   },
-};
+}

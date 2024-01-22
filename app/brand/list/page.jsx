@@ -1,5 +1,5 @@
 const BrandList = () => {
-  return <h1>Brand List</h1>;
-};
+  return <h1>Brand List</h1>
+}
 
-export default BrandList;
+export default BrandList
